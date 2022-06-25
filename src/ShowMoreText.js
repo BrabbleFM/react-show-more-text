@@ -105,13 +105,12 @@ class ShowMoreText extends Component {
                     ellipsis={
                         <span>
                             {truncatedEndingComponent}
-                            <a
-                                href=''
+                            <div
                                 className={anchorClass}
                                 onClick={this.toggleLines}
                             >
                                 {more}
-                            </a>
+                            </div>
                         </span>
                     }
                     onTruncate={this.handleTruncate}
